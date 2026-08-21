@@ -282,3 +282,13 @@ body {
         --bs-btn-padding-x: .8rem;
     }
 }
+
+@media (max-width: 441px) {
+        .titulo-mas-vendido {
+        font-size: 40px;
+        top: 16%;
+        left: 0px;
+        margin-right: 15px;
+        width: 100%;
+    }
+}
