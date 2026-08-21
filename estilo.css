@@ -1,0 +1,263 @@
+body {
+    background-color: #000000;
+}
+
+.navbar {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.bg-body-tertiary {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.navbar-brand img {
+    height: 60px;
+    width: 100%;
+}
+
+.navbar-nav{
+   font-size: 1.5rem;
+   margin-right: 30px;
+   margin-left: 40px;
+   font-family: 'Arial', sans-serif;
+}
+
+.img-navbar{
+    width: 70px;
+    height: 70px;
+}
+
+.navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+    margin-right: 30px;
+    margin-left: 40px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.cont-mas-vendido {
+    background-image: url('imagen-principal.png');
+    display: block;
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+}
+
+.titulo-mas-vendido {
+    position: absolute;
+    top: 15%;
+    left: 30px;
+    text-align: left;
+    font-size: 80px;
+    font-weight: bold;
+    color: black;
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+}
+
+.texto-mas-vendido {
+    position: absolute;
+    bottom: 0.5%;
+    left: 30px;
+    text-align: left;
+    color: white;
+    width: 60%;
+    font-family: 'Arial', sans-serif;
+}
+
+.nombre-mas-vendido {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+}
+
+.desc-mas-vendido {
+    font-size: 20px;
+    text-align: left;
+    text-justify: justify;
+}
+
+.boton-mas-vendido {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    z-index: 5;
+}
+
+.btn-compra-mas-vendido {
+    --bs-btn-padding-y: .5rem; 
+    --bs-btn-padding-x: 1.5rem; 
+    --bs-btn-font-size: 2.0rem; 
+    --bs-btn-border-radius: .8rem; 
+    --bs-btn-border-width: 3px;
+    --bs-btn-bg: #000000; 
+    --bs-btn-border-color: #ffffff;
+    --bs-btn-color: #ffffff;
+    --bs-btn-hover-bg: rgb(0, 0, 0);
+    --bs-btn-hover-border-color: #6d6c6c;
+    --bs-btn-hover-color: #ffffff;
+}
+
+.btn-ver-prod {
+    --bs-btn-padding-y: .5rem; 
+    --bs-btn-padding-x: 1.5rem; 
+    --bs-btn-font-size: 1.0rem; 
+    --bs-btn-border-radius: .8rem; 
+    --bs-btn-border-width: 3px;
+    --bs-btn-bg: #000000; 
+    --bs-btn-border-color: #ffffff;
+    --bs-btn-color: #ffffff;
+    --bs-btn-hover-bg: rgb(0, 0, 0);
+    --bs-btn-hover-border-color: #6d6c6c;
+    --bs-btn-hover-color: #ffffff;
+}
+
+.carousel-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(252, 252, 252);
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
+.subtitulo-productos {
+    text-align: left;
+    text-justify: left;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(252, 252, 252);
+    margin: 70px 0px 50px 60px;
+}
+
+#carouselExampleCaptions {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+.carrousel-item img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1); 
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5) !important;
+    outline: none; 
+}
+
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none;
+    width: 100%;
+    height: 50%;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.carousel-control-prev-icon {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none;
+    width: 100%;
+    height: 50%;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+@media (max-width: 991px) {
+    .navbar-collapse {
+        background-color: rgb(0, 0, 0);
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    .navbar-nav {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .navbar-nav .nav-link {
+        color: rgb(255, 255, 255);
+        padding: 10px 15px;
+        border-radius: 10px;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-bottom: 10px !important;
+        text-align: left;
+    }
+    
+    .img-navbar {
+        width: 40px;
+        height: 40px;
+    }
+
+    .titulo-mas-vendido {
+        font-size: 45px;
+        top: 12%;
+        left: 15px;
+        width: 100%;
+    }
+
+    .texto-mas-vendido {
+        width: 90%;
+        left: 15px;
+        bottom: 15%;
+    }
+
+    .nombre-mas-vendido {
+        font-size: 30px;
+    }
+
+    .desc-mas-vendido {
+        font-size: 20px;
+    }
+
+    .boton-mas-vendido {
+        right: auto;
+        left: 15px;
+        bottom: 5%; 
+    }
+
+    .btn-compra-mas-vendido {
+        --bs-btn-font-size: 1.2rem; 
+        --bs-btn-padding-y: .4rem; 
+        --bs-btn-padding-x: 1rem;
+    }
+
+    #carouselExampleCaptions {
+        width: 80%;
+        margin-bottom: 40%;
+    }
+
+    .subtitulo-productos {
+        font-size: 45px;
+        text-align: center;
+        margin: 40px 0px 30px 0px;
+        width: 100%;
+    }
+
+    .carousel-title {
+        font-size: 30px;
+    }
+
+    .btn-ver-prod {
+        --bs-btn-font-size: 1.2rem; 
+        --bs-btn-padding-y: .3rem; 
+        --bs-btn-padding-x: .8rem;
+    }
+}
