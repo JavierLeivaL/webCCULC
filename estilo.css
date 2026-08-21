@@ -29,12 +29,13 @@ body {
 .img-navbar{
     width: 70px;
     height: 70px;
-    filter: invert(1);
+    filter: invert(0);
 }
 
 .img-navbar1{
     width: 70px;
     height: 70px;
+    filter: invert(1);
 }
 
 .navbar-nav .nav-link {
@@ -223,6 +224,7 @@ body {
     .img-navbar1 {
         width: 40px;
         height: 40px;
+        filter: invert(0);
     }
 
     .titulo-mas-vendido {
